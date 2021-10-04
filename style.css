@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.content-background {
+  background-image: url('./img/predio1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.content-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  box-shadow: 2px 16px 15px -5px rgba(0,0,0,0.53);
+  border-radius: 25px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 13px;
+  background-color: #1e1e60;
+}
+
+.content-btn a {
+  text-align: center;
+  color: #b0b01f;
+  text-decoration: none;
+  padding: 0 10px;
+
+}
